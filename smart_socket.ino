@@ -14,11 +14,12 @@ String your_name;
 int numNewMessages;
 int botRequestDelay = 1000;
 unsigned long lastTimeBotRan;
+//CHANGE THE "NAME" with your name
+const char* ssid = "NAME";
+const char* password = "WIFI_PASSWORD";
 
-const char* ssid = "Izzat";
-const char* password = "1456abcd";
-
-#define BOTtoken "5296189769:AAG2DjtZLV4_WOrnK3_Ri0ckqjjbBwhpqLM"
+//CHANGE THE "TELEGRAM_BOT_TOKEN_"
+#define BOTtoken "TELEGRAM_BOT_TOKEN"
 #define CHAT_ID "738651906"
 
 #ifdef ESP8266
